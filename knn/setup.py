@@ -58,8 +58,8 @@ def get_extensions():
 setup(
     name="torch_knn",
     version="0.1",
-    author="foolyc",
-    url="https://github.com/foolyc/torchKNN",
+    author="Junyang LI",
+    url="https://github.com/leejunyang/torch_knn",
     description="KNN implement in Pytorch 1.0 including both cpu version and gpu version",
     ext_modules=get_extensions(),
     cmdclass={"build_ext": torch.utils.cpp_extension.BuildExtension},
