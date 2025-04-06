@@ -7,7 +7,7 @@
 
 
 以上代码在ubuntu20.04 cuda-12.1 Pytorch-2.4.0下测试成功
-## Installation for densefusion 
+## Installation for DenseFusion 
 ```python
 cd torch_knn/
 cp -r knn  YOUR_DenseFusion_PATH/DenseFusion/lib/
