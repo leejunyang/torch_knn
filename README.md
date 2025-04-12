@@ -15,6 +15,19 @@ cd YOUR_DenseFusion_PATH/DenseFusion/lib/knn
 make
 make clean
 ```
+
+
+## NOTE:First You need to install the **pytorch** and **cuda-toolkit**
+### If you want  to test the package in other environment, such as **cuda-toolkit>=11.0** and **Pytorch>=1.8**,you need to execute these command line:
+
+```python
+conda activate $YOUR_conda_ENV
+cd  torch_knn/knn
+make
+cp  -r build/lib.linux-x86_64*/* .
+make clean
+rm -rf torch_knn/torch_knn.cpython-39-x86_64-linux-gnu.so
+```
 ### If you want uninstall this package,please use:
 ```python
 make uninstall
