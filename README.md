@@ -17,8 +17,8 @@ make clean
 ```
 
 
-## NOTE:First You need to install the **pytorch** and **cuda-toolkit**
-### If you want  to test the package in other environment, such as **cuda-toolkit>=11.0** and **Pytorch>=1.8**,you need to execute these command line:
+## NOTE:First You need to install the **pytorch** and **CUDA-toolkit**
+### If you want  to test the package in other environment, such as **CUDA-toolkit>=11.0** and **Pytorch>=1.8**,you need to execute these command line:
 
 ```python
 conda activate $YOUR_conda_ENV
